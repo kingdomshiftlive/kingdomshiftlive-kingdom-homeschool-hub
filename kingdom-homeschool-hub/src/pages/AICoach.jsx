@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Send, BookOpen, Sparkles, RefreshCw } from 'lucide-react';
 import './AICoach.css';
 
-const SYSTEM_PROMPT = `You are the Kingdom Homeschool Hub AI Lesson Planner — a warm, knowledgeable assistant for Christian homeschool families.
+const SYSTEM_PROMPT = `You are the KingdomShift KingdomShift KingdomShift Homeschool Hub AI Lesson Planner — a warm, knowledgeable assistant for Christian homeschool families.
 
 Your purpose is to help parents:
 1. Create complete, faith-integrated lesson plans for any subject and grade level
@@ -42,7 +42,7 @@ export default function AICoach() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: 'Welcome to the Kingdom Homeschool Hub AI Lesson Planner! 🌿\n\nI\'m here to help you create faith-integrated lesson plans, plan your school year, choose curriculum, build schedules, and answer your homeschool questions.\n\nTell me about your child — their grade, learning style, and what you\'re working on — and I\'ll build something practical for you. Or tap one of the prompts below to get started!',
+      content: 'Welcome to the KingdomShift KingdomShift KingdomShift Homeschool Hub AI Lesson Planner! 🌿\n\nI\'m here to help you create faith-integrated lesson plans, plan your school year, choose curriculum, build schedules, and answer your homeschool questions.\n\nTell me about your child — their grade, learning style, and what you\'re working on — and I\'ll build something practical for you. Or tap one of the prompts below to get started!',
     },
   ]);
   const [input, setInput] = useState('');

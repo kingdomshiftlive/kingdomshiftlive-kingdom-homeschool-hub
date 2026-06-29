@@ -57,8 +57,8 @@ export default function Contact() {
   return (
     <>
       <SEOHead
-        title="Contact Us — Faith Wealth Blueprint"
-        description="Have a question about biblical financial stewardship? Reach out to the Faith Wealth Blueprint team. We'd love to hear from you."
+        title="Contact Us — KingdomShift KingdomShift Homeschool Hub"
+        description="Have a question about biblical financial stewardship? Reach out to the KingdomShift KingdomShift Homeschool Hub team. We'd love to hear from you."
         canonical="/contact"
       />
       <div className="contact-page">

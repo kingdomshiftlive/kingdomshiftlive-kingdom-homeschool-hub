@@ -66,7 +66,7 @@ export default function Features() {
             Everything You Need to Build <em>Kingdom Wealth</em>
           </h2>
           <p className="section-subtitle">
-            Practical tools. Biblical truth. No fluff. Faith Wealth Blueprint gives you
+            Practical tools. Biblical truth. No fluff. KingdomShift KingdomShift Homeschool Hub gives you
             the complete system to transform your financial life.
           </p>
         </div>

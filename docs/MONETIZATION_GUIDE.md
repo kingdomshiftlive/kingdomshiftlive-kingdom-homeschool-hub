@@ -11,6 +11,6 @@ Primary monetization paths:
 7. Workshop/course framework
 
 Suggested first digital product:
-- Kingdom Homeschool Starter Guide
+- KingdomShift KingdomShift Homeschool Hub Starter Guide
 - Price: $17–$37
 - Platform: Gumroad, Payhip, or Shopify Starter

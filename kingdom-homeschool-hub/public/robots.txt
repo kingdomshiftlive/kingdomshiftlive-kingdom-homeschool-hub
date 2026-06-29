@@ -1,11 +1,4 @@
-# Faith Wealth Blueprint
-# https://faithwealthblueprint.com
-
 User-agent: *
 Allow: /
 
-Sitemap: https://faithwealthblueprint.com/sitemap.xml
-
-# Block admin/private paths
-Disallow: /api/
-Disallow: /.env
+Sitemap: https://kingdomshift-homeschool-hub.pages.dev/sitemap.xml

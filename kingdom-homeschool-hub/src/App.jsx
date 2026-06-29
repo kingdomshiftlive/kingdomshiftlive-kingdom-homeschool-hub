@@ -19,6 +19,7 @@ const Blog = lazy(() => import('./pages/Blog'));
 const BlogPost = lazy(() => import('./pages/BlogPost'));
 const Tools = lazy(() => import('./pages/Tools'));
 const AICoach = lazy(() => import('./pages/AICoach'));
+const AdminConfig = lazy(() => import('./pages/AdminConfig'));
 const FAQ = lazy(() => import('./pages/FAQ'));
 
 // Legal pages from one module
@@ -74,6 +75,7 @@ function AppLayout() {
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/tools" element={<Tools />} />
             <Route path="/ai-coach" element={<AICoach />} />
+            <Route path="/admin-config" element={<AdminConfig />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<Terms />} />

@@ -1,4 +1,4 @@
-# KingdomShift Homeschool Hub — 30 Social Media Posts
+# KingdomShift KingdomShift Homeschool Hub — 30 Social Media Posts
 ## Ready to copy and paste. Rotate across Instagram, Facebook, Pinterest, X
 
 1. Did you know homeschooling is legal in all 50 states — but the requirements are COMPLETELY different by state? We built a free finder for all 50. Link in bio. 📚 #homeschool #homeschooling #kingdomhomeschool

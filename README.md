@@ -1,10 +1,10 @@
-# KingdomShift Homeschool Hub
+# KingdomShift KingdomShift Homeschool Hub
 
 A premium faith-rooted homeschool resource platform built for Kingdom families.
 
 ## Live Asset Purpose
 
-KingdomShift Homeschool Hub helps Christian homeschool parents plan lessons, understand homeschool requirements, compare curriculum options, access resources, and organize their homeschool with confidence.
+KingdomShift KingdomShift Homeschool Hub helps Christian homeschool parents plan lessons, understand homeschool requirements, compare curriculum options, access resources, and organize their homeschool with confidence.
 
 ## Included Features
 

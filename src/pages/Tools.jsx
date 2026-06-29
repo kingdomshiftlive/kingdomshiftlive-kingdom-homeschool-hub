@@ -189,11 +189,11 @@ export default function Tools() {
         {activeTab === 'calendar' && (
           <div className="tools-page__panel">
             <div className="tools-page__panel-header">
-              <h2>Kingdom Homeschool Calendar</h2>
+              <h2>KingdomShift KingdomShift Homeschool Hub Calendar</h2>
               <p>Align your homeschool with God's designed seasons and rhythms. Each month carries a biblical focus, scripture, and practical actions for your family.</p>
             </div>
             <KingdomCalendar
-              title="Kingdom Homeschool Calendar"
+              title="KingdomShift KingdomShift Homeschool Hub Calendar"
               seasons={homeschoolCalendar}
             />
           </div>
@@ -203,7 +203,7 @@ export default function Tools() {
         {activeTab === 'community' && (
           <div className="tools-page__panel">
             <div className="tools-page__panel-header">
-              <h2>Kingdom Homeschool Community</h2>
+              <h2>KingdomShift KingdomShift Homeschool Hub Community</h2>
               <p>Share what you are believing God for in your homeschool journey. Encourage one another.</p>
             </div>
             <CommunityBoard

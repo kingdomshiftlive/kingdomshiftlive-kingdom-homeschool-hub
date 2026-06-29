@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const SITE_NAME = 'KingdomShift Homeschool Hub';
+const SITE_NAME = 'KingdomShift KingdomShift Homeschool Hub';
 const SITE_URL = 'https://kingdomshifthomeschoolhub.com';
 const DEFAULT_DESC = 'Faith-rooted homeschool planning tools, all 50 state legal guides, curriculum comparisons, and an AI Lesson Planner for Kingdom families.';
 

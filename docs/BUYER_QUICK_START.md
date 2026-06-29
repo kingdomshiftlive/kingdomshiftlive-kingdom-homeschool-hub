@@ -1,4 +1,4 @@
-# Buyer Quick Start — KingdomShift Homeschool Hub
+# Buyer Quick Start — KingdomShift KingdomShift Homeschool Hub
 
 ## What you received
 

@@ -1,6 +1,6 @@
-# Start Here — KingdomShift Homeschool Hub
+# Start Here — KingdomShift KingdomShift Homeschool Hub
 
-Welcome. This package contains the complete source code and documentation for KingdomShift Homeschool Hub.
+Welcome. This package contains the complete source code and documentation for KingdomShift KingdomShift Homeschool Hub.
 
 Start with:
 

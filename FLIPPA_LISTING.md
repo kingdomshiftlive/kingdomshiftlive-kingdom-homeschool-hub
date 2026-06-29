@@ -1,10 +1,10 @@
-# KingdomShift Homeschool Hub — Flippa Listing
+# KingdomShift KingdomShift Homeschool Hub — Flippa Listing
 ## Copy and paste this directly into your Flippa listing
 
 ---
 
 **LISTING TITLE:**
-KingdomShift Homeschool Hub | AI Lesson Planner + 20 Curricula + All 50 States | Faith-Based | Turnkey | Multiple Revenue Streams
+KingdomShift KingdomShift Homeschool Hub | AI Lesson Planner + 20 Curricula + All 50 States | Faith-Based | Turnkey | Multiple Revenue Streams
 
 ---
 
@@ -15,13 +15,13 @@ Fully built faith-based homeschool platform with AI Lesson Planner, all 50 state
 
 **FULL LISTING DESCRIPTION:**
 
-KingdomShift Homeschool Hub is a fully built, faith-rooted homeschool resource platform targeting the 3.3 million homeschool families in the United States — one of the fastest-growing education segments in America.
+KingdomShift KingdomShift Homeschool Hub is a fully built, faith-rooted homeschool resource platform targeting the 3.3 million homeschool families in the United States — one of the fastest-growing education segments in America.
 
 ---
 
 WHY THIS SELLS IMMEDIATELY:
 
-Most homeschool sites are basic blogs. KingdomShift Homeschool Hub is a complete platform with tools families actually need and cannot find together anywhere else.
+Most homeschool sites are basic blogs. KingdomShift KingdomShift Homeschool Hub is a complete platform with tools families actually need and cannot find together anywhere else.
 
 ---
 

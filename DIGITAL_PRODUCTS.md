@@ -1,4 +1,4 @@
-# KingdomShift Homeschool Hub — Digital Products
+# KingdomShift KingdomShift Homeschool Hub — Digital Products
 
 ## FREE Lead Magnet: Homeschool Starter Checklist PDF
 
@@ -22,7 +22,7 @@
 
 ---
 
-## PAID Product: Complete Kingdom Homeschool Planner — $27
+## PAID Product: Complete KingdomShift KingdomShift Homeschool Hub Planner — $27
 
 **What it is:** A comprehensive digital planner for the full homeschool year.
 

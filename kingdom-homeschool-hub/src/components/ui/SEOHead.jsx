@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
 export default function SEOHead({ title, description, canonical, ogImage }) {
-  const siteName = 'Faith Wealth Blueprint';
+  const siteName = 'KingdomShift KingdomShift Homeschool Hub';
   const fullTitle = title ? `${title} | ${siteName}` : `${siteName} — Biblical Finance for Kingdom Builders`;
   const defaultDesc = 'Build wealth with biblical wisdom. Free financial calculators, AI stewardship coach, and Kingdom-focused resources for believers who want to steward money with purpose.';
   const metaDesc = description || defaultDesc;

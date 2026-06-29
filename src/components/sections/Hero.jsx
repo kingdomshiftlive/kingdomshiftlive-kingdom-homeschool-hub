@@ -35,7 +35,7 @@ export default function Hero() {
 
           {/* Subhead */}
           <p className="hero__subtitle">
-            KingdomShift Homeschool Hub gives Kingdom families
+            KingdomShift KingdomShift Homeschool Hub gives Kingdom families
             the tools, legal guides, and curriculum resources to homeschool with confidence,
             debt, and build lasting Kingdom wealth.
           </p>
