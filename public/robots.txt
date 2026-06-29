@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kingdomshifthomeschoolhub.com/sitemap.xml
+
+Disallow: /api/
+Disallow: /.env

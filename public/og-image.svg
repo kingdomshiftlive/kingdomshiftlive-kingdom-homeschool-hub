@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#142417"/><stop offset=".55" stop-color="#23442B"/><stop offset="1" stop-color="#6F4E12"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="1030" cy="120" r="220" fill="#D8A94A" opacity=".14"/>
+  <circle cx="150" cy="570" r="250" fill="#FFFFFF" opacity=".07"/>
+  <text x="80" y="150" fill="#F4D98A" font-size="34" font-family="Arial" font-weight="700">KINGDOMSHIFT DIGITAL ASSET</text>
+  <text x="80" y="250" fill="#FFFFFF" font-size="78" font-family="Georgia" font-weight="700">KingdomShift</text>
+  <text x="80" y="340" fill="#FFFFFF" font-size="78" font-family="Georgia" font-weight="700">Homeschool Hub</text>
+  <text x="80" y="430" fill="#EDE8D8" font-size="34" font-family="Arial">AI lesson planner • 50-state guides • curriculum tools</text>
+  <text x="80" y="505" fill="#F4D98A" font-size="28" font-family="Arial">Raise World-Changers at Home</text>
+</svg>

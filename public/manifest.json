@@ -1,0 +1,24 @@
+{
+  "name": "KingdomShift Homeschool Hub",
+  "short_name": "KSH Hub",
+  "description": "Faith-rooted homeschool tools, state legal guides, curriculum resources, and AI lesson planning for Kingdom families.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDFAF2",
+  "theme_color": "#4A7C4A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "education",
+    "productivity",
+    "lifestyle"
+  ],
+  "lang": "en-US"
+}
