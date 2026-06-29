@@ -1,0 +1,92 @@
+/* =============================================
+   KINGDOM HOMESCHOOL HUB — Design Tokens
+   ============================================= */
+
+:root {
+  /* Brand Colors — Warm Sage + Parchment + Deep Blue */
+  --sage-400: #6B9E6B;
+  --sage-500: #4A7C4A;
+  --sage-600: #3A6040;
+  --sage-700: #2D4D2D;
+
+  --parchment: #FAF5E8;
+  --parchment-dark: #F0E8CC;
+
+  --royal-500: #1B3F72;
+  --royal-600: #152E54;
+  --royal-700: #0F2040;
+
+  --amber-400: #E8A830;
+  --amber-500: #C98A18;
+  --amber-600: #A86F10;
+
+  --coral: #E07050;
+  --lavender: #8870A8;
+
+  /* Light Mode */
+  --bg-primary: #FDFAF2;
+  --bg-secondary: #FAF5E8;
+  --bg-tertiary: #F0E8CC;
+  --bg-card: #ffffff;
+  --bg-card-hover: #fdfaf5;
+
+  --text-primary: #1A2E1A;
+  --text-secondary: #3A4E3A;
+  --text-muted: #7A8A72;
+  --text-inverse: #ffffff;
+
+  --border-light: #E4DCC8;
+  --border-medium: #D4C8A8;
+  --border-color: #E4DCC8;
+
+  --accent-primary: #4A7C4A;
+  --accent-primary-dark: #3A6040;
+  --accent-secondary: #1B3F72;
+  --accent-amber: #C98A18;
+
+  --shadow-sm: 0 1px 3px rgba(74, 124, 74, 0.08), 0 1px 2px rgba(74, 124, 74, 0.04);
+  --shadow-md: 0 4px 16px rgba(74, 124, 74, 0.10), 0 2px 6px rgba(74, 124, 74, 0.06);
+  --shadow-lg: 0 10px 40px rgba(74, 124, 74, 0.14), 0 4px 12px rgba(74, 124, 74, 0.08);
+  --shadow-xl: 0 20px 60px rgba(74, 124, 74, 0.18);
+  --shadow-gold: 0 4px 24px rgba(201, 138, 24, 0.25);
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  --font-display: 'Lora', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Fira Code', 'Courier New', monospace;
+
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  --max-width: 1200px;
+  --nav-height: 72px;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0F1A0F;
+  --bg-secondary: #142014;
+  --bg-tertiary: #1A2A1A;
+  --bg-card: #182018;
+  --bg-card-hover: #1E281E;
+
+  --text-primary: #EDE8D8;
+  --text-secondary: #B8C8A8;
+  --text-muted: #7A8872;
+  --text-inverse: #1A2E1A;
+
+  --border-light: #2A3E2A;
+  --border-medium: #344834;
+  --border-color: #2A3E2A;
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.35);
+  --shadow-lg: 0 10px 40px rgba(0,0,0,0.4);
+  --shadow-xl: 0 20px 60px rgba(0,0,0,0.5);
+  --shadow-gold: 0 4px 24px rgba(201,138,24,0.3);
+}
