@@ -57,6 +57,13 @@ export default function Tools() {
           </button>
         </div>
 
+        {/* PARENT DASHBOARD */}
+        {activeTab === 'dashboard' && (
+          <div className="tools-page__panel">
+            <ParentDashboard />
+          </div>
+        )}
+
         {/* STATE REQUIREMENTS */}
         {activeTab === 'states' && (
           <div className="tools-page__panel" id="states">

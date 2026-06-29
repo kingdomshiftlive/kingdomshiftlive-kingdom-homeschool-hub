@@ -31,11 +31,13 @@ export default function Tools() {
     : curriculumOptions.filter(c => c.approach.includes(curriculumFilter));
 
   const tabs = [
+    { id: 'dashboard', label: 'Parent Dashboard', icon: <FileText size={15} /> },
     { id: 'states', label: 'State Requirements', icon: <MapPin size={15} /> },
     { id: 'curriculum', label: 'Curriculum Comparison', icon: <BookOpen size={15} /> },
     { id: 'quiz', label: 'Learning Style Quiz', icon: <Brain size={15} /> },
     { id: 'portfolio', label: 'Portfolio Builder', icon: <FolderOpen size={15} /> },
     { id: 'templates', label: 'Printable Templates', icon: <FileText size={15} /> },
+    { id: 'courses', label: 'Course Framework', icon: <BookOpen size={15} /> },
     { id: 'alerts', label: 'Law Alerts', icon: <Bell size={15} /> },
     { id: 'reportcard', label: 'Report Card', icon: <FileText size={15} /> },
     { id: 'calendar', label: 'Kingdom Calendar', icon: <Calendar size={15} /> },
@@ -64,6 +66,13 @@ export default function Tools() {
             </button>
           ))}
         </div>
+
+        {/* PARENT DASHBOARD */}
+        {activeTab === 'dashboard' && (
+          <div className="tools-page__panel">
+            <ParentDashboard />
+          </div>
+        )}
 
         {/* STATE REQUIREMENTS */}
         {activeTab === 'states' && (
@@ -178,6 +187,13 @@ export default function Tools() {
           </div>
         )}
 
+        {/* COURSE FRAMEWORK */}
+        {activeTab === 'courses' && (
+          <div className="tools-page__panel">
+            <CourseWorkshopFramework />
+          </div>
+        )}
+
         {/* LAW ALERTS */}
         {activeTab === 'alerts' && (
           <div className="tools-page__panel">
@@ -233,6 +249,115 @@ export default function Tools() {
             <ReportCardGenerator />
           </div>
         )}
+      </div>
+    </div>
+  );
+}
+
+
+// ===== PARENT DASHBOARD =====
+function ParentDashboard() {
+  const [student, setStudent] = useState({ name: 'Jayden', grade: '6th Grade', year: '2026-2027' });
+  const [goals, setGoals] = useState([
+    { label: 'Bible / Character', value: 72 },
+    { label: 'Language Arts', value: 66 },
+    { label: 'Math', value: 58 },
+    { label: 'Science', value: 61 },
+    { label: 'History', value: 70 },
+  ]);
+  const [attendance, setAttendance] = useState({ completed: 84, target: 180 });
+
+  const updateGoal = (index, value) => {
+    const next = [...goals];
+    next[index] = { ...next[index], value: Math.max(0, Math.min(100, Number(value) || 0)) };
+    setGoals(next);
+  };
+
+  const overall = Math.round(goals.reduce((sum, g) => sum + g.value, 0) / goals.length);
+  const attendancePercent = Math.round((attendance.completed / attendance.target) * 100);
+
+  return (
+    <div className="parent-dashboard">
+      <div className="tools-page__panel-header">
+        <h2>Parent Command Dashboard</h2>
+        <p>Track homeschool progress, attendance, weekly goals, and discipleship focus in one printable dashboard.</p>
+      </div>
+
+      <div className="dashboard-grid">
+        <div className="dashboard-card dashboard-card--profile">
+          <h3>Student Profile</h3>
+          <label>Student Name<input value={student.name} onChange={e => setStudent({ ...student, name: e.target.value })} /></label>
+          <label>Grade Level<input value={student.grade} onChange={e => setStudent({ ...student, grade: e.target.value })} /></label>
+          <label>School Year<input value={student.year} onChange={e => setStudent({ ...student, year: e.target.value })} /></label>
+        </div>
+
+        <div className="dashboard-card dashboard-card--score">
+          <span className="dashboard-kicker">Overall Progress</span>
+          <strong>{overall}%</strong>
+          <p>{student.name}'s current homeschool rhythm is moving forward. Use this as a planning guide, not a legal record.</p>
+        </div>
+
+        <div className="dashboard-card dashboard-card--score">
+          <span className="dashboard-kicker">Attendance</span>
+          <strong>{attendance.completed}/{attendance.target}</strong>
+          <p>{attendancePercent}% of target days completed.</p>
+          <div className="dashboard-attendance-row">
+            <input type="number" value={attendance.completed} onChange={e => setAttendance({ ...attendance, completed: Number(e.target.value) || 0 })} />
+            <span>of</span>
+            <input type="number" value={attendance.target} onChange={e => setAttendance({ ...attendance, target: Number(e.target.value) || 1 })} />
+          </div>
+        </div>
+      </div>
+
+      <div className="dashboard-card dashboard-card--wide">
+        <h3>Subject Progress</h3>
+        <div className="dashboard-progress-list">
+          {goals.map((goal, index) => (
+            <div className="dashboard-progress" key={goal.label}>
+              <div className="dashboard-progress__top"><span>{goal.label}</span><strong>{goal.value}%</strong></div>
+              <input type="range" min="0" max="100" value={goal.value} onChange={e => updateGoal(index, e.target.value)} />
+              <div className="dashboard-bar"><span style={{ width: `${goal.value}%` }} /></div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="dashboard-card dashboard-card--wide dashboard-print-panel">
+        <h3>Weekly Kingdom Focus</h3>
+        <p><strong>Scripture:</strong> Proverbs 22:6 — Train up a child in the way he should go.</p>
+        <p><strong>Parent action:</strong> Choose one character virtue, one academic goal, and one family rhythm to reinforce this week.</p>
+        <button className="btn btn--primary" onClick={() => window.print()}>Print Dashboard</button>
+      </div>
+    </div>
+  );
+}
+
+// ===== COURSE / WORKSHOP FRAMEWORK =====
+function CourseWorkshopFramework() {
+  const tracks = [
+    { title: 'Start Strong Homeschool Setup', price: '$27-$47', items: ['State setup checklist', 'First 30-day rhythm', 'Parent confidence guide'] },
+    { title: 'Kingdom Family Learning Rhythm', price: '$37-$67', items: ['Weekly schedule templates', 'Scripture-led planning', 'Household rhythm builder'] },
+    { title: 'Portfolio & Records Workshop', price: '$47-$97', items: ['Printable records system', 'Report-card templates', 'End-of-year review guide'] },
+  ];
+
+  return (
+    <div className="course-framework">
+      <div className="tools-page__panel-header">
+        <h2>Course & Workshop Framework</h2>
+        <p>A future-ready monetization section the buyer can activate with their own homeschool workshop, mini-course, or paid guide.</p>
+      </div>
+      <div className="course-grid">
+        {tracks.map(track => (
+          <div className="course-card" key={track.title}>
+            <span className="course-card__price">Suggested: {track.price}</span>
+            <h3>{track.title}</h3>
+            <ul>{track.items.map(item => <li key={item}>{item}</li>)}</ul>
+            <button className="btn btn--outline" type="button">Buyer Adds Checkout Link</button>
+          </div>
+        ))}
+      </div>
+      <div className="course-note">
+        <strong>Buyer note:</strong> This page is intentionally built as a course seed. Connect Gumroad, ThriveCart, Stan Store, Shopify, or another checkout tool and replace the button links.
       </div>
     </div>
   );

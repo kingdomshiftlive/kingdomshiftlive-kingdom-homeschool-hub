@@ -66,3 +66,8 @@ The buyer connects their own:
 ## Documentation
 
 See the `docs/` folder and `release/START_HERE_FOR_BUYER.md`.
+
+## Master Standard Feature Upgrade
+
+KingdomShift Homeschool Hub includes future-ready homeschool modules aligned with the KingdomShift Master Standard: Parent Dashboard, Declaration Tool, Kingdom Calendar, Community Board, Course/Workshop Framework, AI Advisor, buyer documentation, and transfer-ready setup.
+

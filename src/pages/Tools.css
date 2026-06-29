@@ -348,3 +348,32 @@
 /* Import shared component styles */
 @import '../components/ui/CommunityBoard.css';
 @import '../components/ui/KingdomCalendar.css';
+
+/* === KingdomShift Master Standard Feature Polish === */
+.parent-dashboard, .course-framework { display: grid; gap: 1.25rem; }
+.dashboard-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) repeat(2, minmax(220px, .7fr)); gap: 1rem; }
+.dashboard-card, .course-card, .course-note { background: var(--bg-secondary); border: 1px solid var(--border-light); border-radius: 22px; padding: 1.25rem; box-shadow: var(--shadow-sm); }
+.dashboard-card h3, .course-card h3 { margin-top: 0; font-family: var(--font-display); color: var(--text-primary); }
+.dashboard-card--profile { display: grid; gap: .75rem; }
+.dashboard-card label { display: grid; gap: .35rem; font-weight: 700; color: var(--text-primary); font-size: .9rem; }
+.dashboard-card input[type="text"], .dashboard-card input[type="number"], .dashboard-card input:not([type]) { width: 100%; border: 1px solid var(--border-light); border-radius: 12px; padding: .7rem .8rem; background: var(--bg-primary); color: var(--text-primary); }
+.dashboard-card--score { background: linear-gradient(135deg, rgba(42, 88, 67, .12), rgba(214, 169, 72, .12)); }
+.dashboard-kicker { display: block; text-transform: uppercase; letter-spacing: .08em; font-size: .72rem; font-weight: 800; color: var(--accent-primary); margin-bottom: .5rem; }
+.dashboard-card--score strong { display: block; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1; color: var(--accent-secondary); }
+.dashboard-attendance-row { display: flex; align-items: center; gap: .5rem; margin-top: 1rem; }
+.dashboard-attendance-row input { max-width: 90px; }
+.dashboard-card--wide { grid-column: 1 / -1; }
+.dashboard-progress-list { display: grid; gap: 1rem; }
+.dashboard-progress__top { display: flex; justify-content: space-between; margin-bottom: .35rem; font-weight: 800; }
+.dashboard-progress input[type="range"] { width: 100%; accent-color: var(--accent-primary); }
+.dashboard-bar { height: 9px; background: rgba(0,0,0,.08); border-radius: 99px; overflow: hidden; margin-top: .35rem; }
+.dashboard-bar span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary)); border-radius: inherit; }
+.dashboard-print-panel { border-style: dashed; }
+.course-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.course-card { display: grid; gap: .75rem; align-content: start; }
+.course-card__price { width: fit-content; border-radius: 999px; padding: .35rem .65rem; background: rgba(214, 169, 72, .15); color: var(--accent-secondary); font-size: .8rem; font-weight: 800; }
+.course-card ul { padding-left: 1.1rem; margin: 0; color: var(--text-secondary); }
+.course-note { background: rgba(42, 88, 67, .08); color: var(--text-secondary); }
+@media (max-width: 900px) { .dashboard-grid, .course-grid { grid-template-columns: 1fr; } }
+@media print { .navbar, .footer, .tools-page__tabs, .btn, .tools-page__hero { display: none !important; } .tools-page__panel { box-shadow: none !important; border: none !important; } }
+

@@ -319,3 +319,8 @@ This asset is sold as-is. For setup questions, the codebase is clean, well-comme
 ---
 
 *Built with React 19 + Vite. Deployed on Cloudflare Pages. Ready to generate revenue from day one.*
+
+## Master Standard Feature Upgrade
+
+KingdomShift Homeschool Hub includes future-ready homeschool modules aligned with the KingdomShift Master Standard: Parent Dashboard, Declaration Tool, Kingdom Calendar, Community Board, Course/Workshop Framework, AI Advisor, buyer documentation, and transfer-ready setup.
+
