@@ -1,8 +1,8 @@
-# Final Flippa Listing Copy — KingdomShift KingdomShift Homeschool Hub
+# Final Flippa Listing Copy — KingdomShift Homeschool Hub
 
 ## Listing Title
 
-KingdomShift KingdomShift Homeschool Hub | AI Lesson Planner + 50-State Homeschool Tools + Curriculum Resources | Turnkey Digital Asset
+KingdomShift Homeschool Hub | AI Lesson Planner + 50-State Homeschool Tools + Curriculum Resources | Turnkey Digital Asset
 
 ## Short Description
 
@@ -10,7 +10,7 @@ A faith-rooted homeschool resource platform with AI lesson planning, 50-state ho
 
 ## Full Description
 
-KingdomShift KingdomShift Homeschool Hub is a turnkey digital website asset built for Christian homeschool families who need practical tools, legal guidance, curriculum support, and faith-integrated planning resources.
+KingdomShift Homeschool Hub is a turnkey digital website asset built for Christian homeschool families who need practical tools, legal guidance, curriculum support, and faith-integrated planning resources.
 
 The platform includes a live-ready React/Vite codebase, homeschool tools, AI Lesson Planner structure, resource pages, blog content, legal pages, buyer documentation, monetization guide, release package, and a Buyer Control Center for easy post-sale configuration.
 

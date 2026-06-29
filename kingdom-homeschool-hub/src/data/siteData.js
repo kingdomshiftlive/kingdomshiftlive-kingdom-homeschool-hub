@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: 'KingdomShift KingdomShift KingdomShift Homeschool Hub',
+  name: 'KingdomShift Homeschool Hub',
   tagline: 'Raise World-Changers at Home',
   description: 'Faith-rooted homeschool planning tools, state legal guides, curriculum resources, and an AI Lesson Planner — everything Kingdom families need to educate with purpose.',
   url: 'https://kingdomhomeschoolhub.com',
   email: 'hello@kingdomhomeschoolhub.com',
   scripture: '"Train up a child in the way he should go; even when he is old he will not depart from it." — Proverbs 22:6',
-  affiliateDisclaimer: 'KingdomShift KingdomShift KingdomShift Homeschool Hub participates in affiliate programs. When you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend resources we genuinely believe in.',
+  affiliateDisclaimer: 'KingdomShift Homeschool Hub participates in affiliate programs. When you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend resources we genuinely believe in.',
 };
 
 export const navLinks = [
@@ -36,7 +36,7 @@ export const testimonials = [
     id: 3,
     name: 'Marcus & Toya J.',
     role: 'Homeschool family — Georgia',
-    quote: 'We were terrified to start homeschooling. KingdomShift KingdomShift KingdomShift Homeschool Hub gave us everything — legal info, curriculum comparisons, scheduling tools. We have never looked back.',
+    quote: 'We were terrified to start homeschooling. KingdomShift Homeschool Hub gave us everything — legal info, curriculum comparisons, scheduling tools. We have never looked back.',
     avatar: 'MJ',
   },
   {

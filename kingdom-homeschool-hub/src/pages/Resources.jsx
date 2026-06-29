@@ -60,7 +60,7 @@ export default function Resources() {
         <div className="resources-page__affiliate-notice card">
           <p>
             <strong>Affiliate Disclosure:</strong> Some links on this page are affiliate links. 
-            When you purchase through these links, KingdomShift KingdomShift KingdomShift Homeschool Hub may earn a small commission at no additional cost to you. 
+            When you purchase through these links, KingdomShift Homeschool Hub may earn a small commission at no additional cost to you. 
             We only feature resources we genuinely believe serve homeschool families well.
           </p>
         </div>

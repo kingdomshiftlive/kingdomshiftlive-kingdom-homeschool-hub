@@ -41,7 +41,7 @@ export default function Navbar() {
             <BookOpen size={20} />
           </div>
           <div className="navbar__logo-text">
-            <span className="navbar__logo-primary">KingdomShift KingdomShift KingdomShift Homeschool Hub</span>
+            <span className="navbar__logo-primary">KingdomShift Homeschool Hub</span>
             <span className="navbar__logo-sub">Hub</span>
           </div>
         </Link>

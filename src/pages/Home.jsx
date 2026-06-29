@@ -243,7 +243,7 @@ export default function Home() {
       {/* CTA */}
       <section className="home__cta">
         <div className="container home__cta-inner">
-          <h2>Ready to Build Your KingdomShift KingdomShift Homeschool Hub?</h2>
+          <h2>Ready to Build Your KingdomShift Homeschool Hub?</h2>
           <p>Start with your state's legal requirements — then use our free tools to plan, curriculum-shop, and build a homeschool your children will thank you for.</p>
           <div className="home__cta-actions">
             <Link to="/tools" className="btn btn--primary btn--lg">Find My State's Requirements</Link>

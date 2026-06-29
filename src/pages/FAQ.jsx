@@ -18,7 +18,7 @@ export default function FAQ() {
   return (
     <>
       <SEOHead
-        title="FAQ — KingdomShift KingdomShift Homeschool Hub"
+        title="FAQ — KingdomShift Homeschool Hub"
         description="Answers to the most common questions about homeschooling legally, curriculum, tools, and getting started."
         canonical="/faq"
       />
@@ -27,7 +27,7 @@ export default function FAQ() {
           <div className="container">
             <span className="section-label">Got Questions?</span>
             <h1>Frequently Asked <span className="text-gold">Questions</span></h1>
-            <p>Everything you need to know about KingdomShift KingdomShift Homeschool Hub and your homeschool journey.</p>
+            <p>Everything you need to know about KingdomShift Homeschool Hub and your homeschool journey.</p>
             <div className="faq-search">
               <input
                 type="search"

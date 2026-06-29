@@ -1,4 +1,4 @@
-# KingdomShift KingdomShift Homeschool Hub — Premium Digital Business
+# KingdomShift Homeschool Hub — Premium Digital Business
 
 **A complete, production-ready biblical finance platform ready for launch or resale.**
 
@@ -149,7 +149,7 @@ src/styles/variables.css
 ```
 
 Change the brand name and domain globally by searching for:
-- `KingdomShift KingdomShift Homeschool Hub` → your brand name
+- `KingdomShift Homeschool Hub` → your brand name
 - `faithwealthblueprint.com` → your domain
 - `hello@faithwealthblueprint.com` → your email
 

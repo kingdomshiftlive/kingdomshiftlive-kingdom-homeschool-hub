@@ -35,7 +35,7 @@ export default function Hero() {
 
           {/* Subhead */}
           <p className="hero__subtitle">
-            KingdomShift KingdomShift Homeschool Hub bridges Scripture and personal finance — giving you
+            KingdomShift Homeschool Hub bridges Scripture and personal finance — giving you
             the tools, principles, and guidance to steward money with purpose, eliminate
             debt, and build lasting Kingdom wealth.
           </p>

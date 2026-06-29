@@ -1,16 +1,16 @@
-# KingdomShift KingdomShift Homeschool Hub — 5-Email Welcome Sequence
+# KingdomShift Homeschool Hub — 5-Email Welcome Sequence
 ## Load these into Mailchimp as an automated sequence — send Day 0, 2, 4, 7, 14
 
 ---
 
 ## EMAIL 1 — Day 0 (Immediate after signup)
-**Subject:** Welcome to KingdomShift KingdomShift Homeschool Hub — Your free starter checklist is inside
+**Subject:** Welcome to KingdomShift Homeschool Hub — Your free starter checklist is inside
 
 Welcome to the Kingdom community!
 
 You just took a bold step — and God sees it.
 
-Whether you are just starting your homeschool journey or five years in and needing a refresh, KingdomShift KingdomShift Homeschool Hub was built for you.
+Whether you are just starting your homeschool journey or five years in and needing a refresh, KingdomShift Homeschool Hub was built for you.
 
 Here is your FREE Homeschool Starter Checklist: [PASTE YOUR GUMROAD LINK]
 
@@ -27,7 +27,7 @@ Over the next few days I will share:
 You were made for this. Let us build together.
 
 [YOUR NAME]
-KingdomShift KingdomShift Homeschool Hub
+KingdomShift Homeschool Hub
 
 ---
 
@@ -92,7 +92,7 @@ Tell it your child's grade, learning style, and subject. Get a full week of fait
 
 [YOUR NAME]
 
-P.S. If you want a full year of planning tools, our Complete KingdomShift KingdomShift Homeschool Hub Planner covers everything for just $27 → [GUMROAD LINK]
+P.S. If you want a full year of planning tools, our Complete KingdomShift Homeschool Hub Planner covers everything for just $27 → [GUMROAD LINK]
 
 ---
 
@@ -119,4 +119,4 @@ Three things that help:
 You were called to this. You are equipped. Keep going.
 
 [YOUR NAME]
-KingdomShift KingdomShift Homeschool Hub
+KingdomShift Homeschool Hub

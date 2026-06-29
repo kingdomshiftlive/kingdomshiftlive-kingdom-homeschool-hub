@@ -6,7 +6,7 @@ export function PrivacyPolicy() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
   return (
     <>
-      <SEOHead title="Privacy Policy — KingdomShift KingdomShift Homeschool Hub" canonical="/privacy-policy" />
+      <SEOHead title="Privacy Policy — KingdomShift Homeschool Hub" canonical="/privacy-policy" />
       <div className="legal-page">
         <div className="legal-hero">
           <div className="container">
@@ -17,7 +17,7 @@ export function PrivacyPolicy() {
         <div className="legal-body container">
           <div className="legal-content">
             <p className="legal-intro">
-              KingdomShift KingdomShift Homeschool Hub ("we," "our," or "us") is committed to protecting your personal information. 
+              KingdomShift Homeschool Hub ("we," "our," or "us") is committed to protecting your personal information. 
               This Privacy Policy explains how we collect, use, and safeguard the information you provide when visiting 
               <strong> faithwealthblueprint.com</strong>.
             </p>
@@ -98,7 +98,7 @@ export function Terms() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
   return (
     <>
-      <SEOHead title="Terms of Service — KingdomShift KingdomShift Homeschool Hub" canonical="/terms" />
+      <SEOHead title="Terms of Service — KingdomShift Homeschool Hub" canonical="/terms" />
       <div className="legal-page">
         <div className="legal-hero">
           <div className="container">
@@ -109,7 +109,7 @@ export function Terms() {
         <div className="legal-body container">
           <div className="legal-content">
             <p className="legal-intro">
-              Please read these Terms of Service carefully before using KingdomShift KingdomShift Homeschool Hub. By accessing 
+              Please read these Terms of Service carefully before using KingdomShift Homeschool Hub. By accessing 
               or using our website, you agree to be bound by these terms.
             </p>
 
@@ -144,7 +144,7 @@ export function Terms() {
 
             <h2>5. Intellectual Property</h2>
             <p>
-              All intellectual property on this site is owned by KingdomShift KingdomShift Homeschool Hub or its licensors. 
+              All intellectual property on this site is owned by KingdomShift Homeschool Hub or its licensors. 
               Nothing in these Terms grants you any right to use our trademarks, logos, or proprietary content.
             </p>
 
@@ -157,7 +157,7 @@ export function Terms() {
 
             <h2>7. Limitation of Liability</h2>
             <p>
-              To the fullest extent permitted by law, KingdomShift KingdomShift Homeschool Hub shall not be liable for any 
+              To the fullest extent permitted by law, KingdomShift Homeschool Hub shall not be liable for any 
               indirect, incidental, special, or consequential damages arising from your use of this site 
               or any content herein.
             </p>
@@ -196,7 +196,7 @@ export function Disclaimer() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
   return (
     <>
-      <SEOHead title="Financial Disclaimer — KingdomShift KingdomShift Homeschool Hub" canonical="/disclaimer" />
+      <SEOHead title="Financial Disclaimer — KingdomShift Homeschool Hub" canonical="/disclaimer" />
       <div className="legal-page">
         <div className="legal-hero">
           <div className="container">
@@ -207,7 +207,7 @@ export function Disclaimer() {
         <div className="legal-body container">
           <div className="legal-content">
             <div className="disclaimer-alert">
-              <strong>Important:</strong> KingdomShift KingdomShift Homeschool Hub is an educational platform. We are not licensed 
+              <strong>Important:</strong> KingdomShift Homeschool Hub is an educational platform. We are not licensed 
               financial advisors, investment counselors, attorneys, or accountants. Nothing on this site 
               should be construed as professional financial advice.
             </div>
@@ -273,7 +273,7 @@ export function AffiliateDisclosure() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
   return (
     <>
-      <SEOHead title="Affiliate Disclosure — KingdomShift KingdomShift Homeschool Hub" canonical="/affiliate-disclosure" />
+      <SEOHead title="Affiliate Disclosure — KingdomShift Homeschool Hub" canonical="/affiliate-disclosure" />
       <div className="legal-page">
         <div className="legal-hero">
           <div className="container">
@@ -284,7 +284,7 @@ export function AffiliateDisclosure() {
         <div className="legal-body container">
           <div className="legal-content">
             <p className="legal-intro">
-              KingdomShift KingdomShift Homeschool Hub is committed to transparency. This page discloses our relationship 
+              KingdomShift Homeschool Hub is committed to transparency. This page discloses our relationship 
               with affiliate partners in compliance with the Federal Trade Commission (FTC) guidelines.
             </p>
 
@@ -344,7 +344,7 @@ export function NotFound() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
   return (
     <>
-      <SEOHead title="Page Not Found — KingdomShift KingdomShift Homeschool Hub" />
+      <SEOHead title="Page Not Found — KingdomShift Homeschool Hub" />
       <div className="not-found-page">
         <div className="not-found-content">
           <div className="not-found-number">404</div>

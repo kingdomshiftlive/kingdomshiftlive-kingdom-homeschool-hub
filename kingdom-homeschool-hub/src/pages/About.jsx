@@ -64,7 +64,7 @@ const team = [
 ];
 
 const milestones = [
-  { year: '2019', event: 'KingdomShift KingdomShift Homeschool Hub launched as a personal blog' },
+  { year: '2019', event: 'KingdomShift Homeschool Hub launched as a personal blog' },
   { year: '2020', event: 'First online course released — 500+ students enrolled in 60 days' },
   { year: '2021', event: 'Community grew to 10,000 subscribers; podcast launched' },
   { year: '2022', event: 'AI Stewardship Coach prototype developed; tools suite launched' },
@@ -80,7 +80,7 @@ export default function About() {
   return (
     <>
       <SEOHead
-        title="About Us — KingdomShift KingdomShift Homeschool Hub"
+        title="About Us — KingdomShift Homeschool Hub"
         description="Learn about our mission to help believers build wealth God's way. Meet the team, explore our values, and join a community of faithful stewards."
         canonical="/about"
       />
@@ -94,7 +94,7 @@ export default function About() {
               Focused on <span className="text-gold">Freedom.</span>
             </h1>
             <p>
-              KingdomShift KingdomShift Homeschool Hub was born from a simple conviction: that the Bible has everything 
+              KingdomShift Homeschool Hub was born from a simple conviction: that the Bible has everything 
               we need to manage money wisely, build lasting wealth, and live generously — and that 
               most believers just need someone to show them how.
             </p>

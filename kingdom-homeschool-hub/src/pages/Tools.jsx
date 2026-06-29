@@ -294,7 +294,7 @@ function ReportCardGenerator() {
       {/* Printable Preview */}
       <div className="report-card__printable print-only">
         <div className="report-card__print-header">
-          <h2>{info.schoolName || 'KingdomShift KingdomShift KingdomShift Homeschool Hub'}</h2>
+          <h2>{info.schoolName || 'KingdomShift Homeschool Hub'}</h2>
           <p>Academic Year: {info.academicYear}</p>
         </div>
         <div className="report-card__print-info">

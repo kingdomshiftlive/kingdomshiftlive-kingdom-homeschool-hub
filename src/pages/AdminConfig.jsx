@@ -7,7 +7,7 @@ import './AdminConfig.css';
 const STORAGE_KEY = 'kingdomShiftHomeschoolBuyerConfig';
 
 const defaultConfig = {
-  businessName: 'KingdomShift KingdomShift Homeschool Hub',
+  businessName: 'KingdomShift Homeschool Hub',
   tagline: 'Raise World-Changers at Home',
   domain: 'https://kingdomshifthomeschoolhub.com',
   contactEmail: 'hello@kingdomshifthomeschoolhub.com',
@@ -22,7 +22,7 @@ const defaultConfig = {
   affiliateTag: 'replace-me',
   socialInstagram: 'https://instagram.com/replace-me',
   socialPinterest: 'https://pinterest.com/replace-me',
-  leadMagnetTitle: 'The KingdomShift KingdomShift Homeschool Hub Starter Guide',
+  leadMagnetTitle: 'The KingdomShift Homeschool Hub Starter Guide',
 };
 
 const fields = [
@@ -88,7 +88,7 @@ export default function AdminConfig() {
 
   return (
     <div className="admin-config-page">
-      <SEOHead title="Buyer Control Center" description="Buyer configuration dashboard for KingdomShift KingdomShift Homeschool Hub." canonicalPath="/admin-config" />
+      <SEOHead title="Buyer Control Center" description="Buyer configuration dashboard for KingdomShift Homeschool Hub." canonicalPath="/admin-config" />
 
       <section className="admin-hero">
         <div className="container admin-hero__grid">

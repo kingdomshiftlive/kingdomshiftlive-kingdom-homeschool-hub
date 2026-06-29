@@ -19,7 +19,7 @@ export default function Blog() {
     <div className="blog-page">
       <div className="blog-page__hero">
         <div className="container">
-          <h1>KingdomShift KingdomShift Homeschool Hub Blog</h1>
+          <h1>KingdomShift Homeschool Hub Blog</h1>
           <p>Practical wisdom, encouragement, and real strategies for the homeschool journey.</p>
         </div>
       </div>

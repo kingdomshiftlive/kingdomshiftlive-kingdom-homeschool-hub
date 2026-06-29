@@ -1,4 +1,4 @@
-# KingdomShift KingdomShift Homeschool Hub — Top 25 SEO Keywords
+# KingdomShift Homeschool Hub — Top 25 SEO Keywords
 ## Target these in blog posts, page titles, and meta descriptions
 
 ### HIGH PRIORITY (high search volume, clear buying intent)

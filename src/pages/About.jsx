@@ -37,7 +37,7 @@ export default function About() {
     <div className="about-page">
       <div className="about-page__hero">
         <div className="container">
-          <h1>About KingdomShift KingdomShift Homeschool Hub</h1>
+          <h1>About KingdomShift Homeschool Hub</h1>
           <p>Built for Kingdom families who are serious about raising the next generation with faith, excellence, and purpose.</p>
         </div>
       </div>
@@ -48,7 +48,7 @@ export default function About() {
           <div className="about-page__mission-inner">
             <div>
               <h2>Our Mission</h2>
-              <p>KingdomShift KingdomShift Homeschool Hub exists because homeschool families deserve more than scattered Google searches and outdated PDFs. They deserve a single trusted place with accurate legal guidance, honest curriculum comparisons, practical planning tools, and encouragement for the hard days.</p>
+              <p>KingdomShift Homeschool Hub exists because homeschool families deserve more than scattered Google searches and outdated PDFs. They deserve a single trusted place with accurate legal guidance, honest curriculum comparisons, practical planning tools, and encouragement for the hard days.</p>
               <p style={{ marginTop: '1rem' }}>We believe homeschooling is one of the most powerful Kingdom assignments a parent can take on. We built this to make that assignment easier — and more excellent.</p>
             </div>
             <div className="about-page__scripture">
@@ -102,7 +102,7 @@ export default function About() {
         </section>
 
         <section className="about-page__cta">
-          <h2>Ready to Build Your KingdomShift KingdomShift Homeschool Hub?</h2>
+          <h2>Ready to Build Your KingdomShift Homeschool Hub?</h2>
           <p>Start with your state legal requirements — then use our free tools to plan, compare curriculum, and build a homeschool your children will thank you for.</p>
           <div className="about-page__cta-btns">
             <Link to="/tools" className="btn btn--primary">Find My State Requirements</Link>

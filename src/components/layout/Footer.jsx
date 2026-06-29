@@ -12,7 +12,7 @@ export default function Footer() {
           <Link to="/" className="footer__logo">
             <BookOpen size={22} />
             <div>
-              <div className="footer__logo-name">KingdomShift KingdomShift Homeschool Hub</div>
+              <div className="footer__logo-name">KingdomShift Homeschool Hub</div>
               <div className="footer__logo-sub">Raise World-Changers at Home</div>
             </div>
           </Link>
@@ -49,7 +49,7 @@ export default function Footer() {
 
       <div className="footer__bottom">
         <div className="container footer__bottom-inner">
-          <p>© {year} KingdomShift KingdomShift Homeschool Hub. Built with <Heart size={13} className="footer__heart" /> for Kingdom families.</p>
+          <p>© {year} KingdomShift Homeschool Hub. Built with <Heart size={13} className="footer__heart" /> for Kingdom families.</p>
           <p className="footer__affiliate-note">
             We participate in affiliate programs. See our <Link to="/affiliate-disclosure">Affiliate Disclosure</Link>.
           </p>
